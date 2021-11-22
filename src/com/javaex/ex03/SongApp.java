@@ -1,6 +1,6 @@
-package com.javaex.ex02;
+package com.javaex.ex03;
 
-public class pointApp {
+public class SongApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
