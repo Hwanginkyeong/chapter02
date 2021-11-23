@@ -4,9 +4,17 @@ public class PointApp {
 
 	public static void main(String[] args) {
 		
-		//Goods int x = new Goods();
-		//x.setX("5")
+		Point p01 = new Point();
+		p01.setX(3);
+		p01.setY(6);
+		p01.draw();
 		
+		
+		Point p02 = new Point();
+		p02.setX(7);
+		p02.setY(7);
+		p02.draw();
+	
 
 	}
 
