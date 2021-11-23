@@ -8,7 +8,15 @@ public class Point {
 		private int y;
 		
 		
-		//생성자	
+		//생성자	-> 하드디스크에 있는 해당 클래스를 메모리에 올리는 기능
+		public Point() {
+		}
+		
+		public Point(int x, int y) {
+			//해당 클래스를 메모리에 올리는 일
+			this.x = x;
+			this.y = y;
+		}
 		
 		
 		//메소드

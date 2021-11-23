@@ -12,6 +12,7 @@ public class SongApp {
 		s1.setYear("2010");
 		s1.setTrack(3);
 		
+		//s1.showInfo();
 		System.out.println(s1.toString());
 		
 		
@@ -23,6 +24,8 @@ public class SongApp {
 		s2.setYear("2007");
 		s2.setTrack(2);
 		
+		
+		//s2.showInfo();
 		System.out.println(s2.toString());
 
 	}
