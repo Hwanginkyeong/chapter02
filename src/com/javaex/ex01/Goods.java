@@ -8,8 +8,8 @@ public class Goods {
 	
 	
 	//메소드	
-	public void setName(String n) {
-		name = n;
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	public String getName() {
@@ -18,8 +18,8 @@ public class Goods {
 	}
 	
 	
-	public void setPrice(int p) {
-		price = p;
+	public void setPrice(int price) {
+		this.price = price;
 	}
 	
 	public int getPrice() {

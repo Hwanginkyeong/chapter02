@@ -12,8 +12,8 @@ public class Point {
 		
 		
 		//메소드
-		public void setX(int xx) {
-			x = xx; //xx들어온 값 
+		public void setX(int x) {
+			this.x = x; //xx들어온 값 
 		}
 		
 		public int getX() {
@@ -21,8 +21,8 @@ public class Point {
 		}
 		
 		
-		public void setY(int yy) {
-			y = yy;
+		public void setY(int y) {
+			this.y = y;
 			
 		}
 		public int getY() {
