@@ -9,15 +9,21 @@ public class TV {
 	
 	
 	//생성자
+	public TV() {
+	
+	}
+
 	public TV(int channel, int volume, boolean power ) {
 		this.channel = channel;
 		this.volume = volume;
 		this.power = power;
-		System.out.println("TV(3)");
+		//System.out.println("TV(3)");
 		
 	}
 
 		
+
+
 	//메소드 -g/s
 	public int getChannel() {
 		return channel;
@@ -32,7 +38,8 @@ public class TV {
 		return power;
 	}
 	
-
+	
+	//메소드 -일반
 	@Override
 	public String toString() {
 		return "TV [channel=" + channel + ", volume=" + volume + ", power=" + power + "]";
@@ -40,7 +47,7 @@ public class TV {
 	
 	
 	
-	//메소드 -일반
+	
 	
 	
 
