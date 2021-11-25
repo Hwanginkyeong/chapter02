@@ -12,7 +12,7 @@ public class MyMathApp {
 	public static void main(String[] args) {
 		
 		MyMath myMath = new MyMath();
-		int sum01 = myMath.plus(3, 6);
+		int sum01 = MyMath.plus(3, 6);
 		System.out.println(sum01);
 		//System.out.println(myMath.plusInt(3, 6));
 		
