@@ -16,6 +16,23 @@ public class MyMathApp {
 		System.out.println(sum01);
 		//System.out.println(myMath.plusInt(3, 6));
 		
+		double sum02 = MyMath.plus(4.3, 5.5);
+		System.out.println(sum02);
+		
+		double sum03 = MyMath.plus(5.5, 9);
+		System.out.println(sum03);
+		
+		double sum04 = MyMath.plus(20, 99.9);
+		System.out.println(sum04);
+		
+		double sum05 = MyMath.circleArea(5);
+		System.out.println(sum05);
+		
+		double sum06 = MyMath.circleRound(5);
+		System.out.println(sum06);
+		
+		
+		/*
 		double sum02 = myMath.plus(4.3, 5.5);
 		System.out.println(sum02);
 		
@@ -24,7 +41,7 @@ public class MyMathApp {
 		
 		double sum04 = myMath.plus(20,99.9);
 		System.out.println(sum04);
-		
+		*/
 
 	}
 
