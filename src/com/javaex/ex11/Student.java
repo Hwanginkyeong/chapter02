@@ -36,8 +36,10 @@ public class Student extends Person{
 	
 	@Override
 	public String toString() {
-		return "Student [schoolName=" + schoolName + "]";
+		return "Student [schoolName=" + schoolName + ", name=" + super.name + ", age=" + super.age + "]";
 	}
+	
+	
 	
 	public void showInfo2() {
 		

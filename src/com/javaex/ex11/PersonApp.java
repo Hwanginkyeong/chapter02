@@ -46,6 +46,8 @@ public class PersonApp {
 		s02.showInfo();
 		s02.showInfo2();
 		//Student s03 = new Student("강남고등학교");
+		
+		System.out.println(s01.toString());
 	
 		
 		
