@@ -3,16 +3,19 @@ package com.javaex.ex11;
 public class Person {
 	
 	//필드
-	private String name;
-	private int age;
+	protected String name;
+	protected int age;
 	
 	
 	//생성자
-	public Person() {}
+	public Person() {
+		System.out.println("Person()");
+	}
 	
 	public Person(String name, int age) {
 		this.name = name;
 		this.age = age;
+		System.out.println("Person(2)");
 		
 	}
 	//메소드 g/s
@@ -42,12 +45,12 @@ public class Person {
 		return "Person [name=" + name + ", age=" + age + "]";
 	}
 	
-
+	
 	public void showInfo() {
 		//name   this.name   /   getName()   this.getName()
 		System.out.println("=====================");
-		System.out.println("이름:" + this.getName());
-		System.out.println("나이:" + this.getAge());
+		System.out.println("이름:" + name);
+		System.out.println("나이:" + age);
 		System.out.println("=====================");
 		System.out.println("");
 	}
