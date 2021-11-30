@@ -66,7 +66,7 @@ public class Triangle {
 	}
 	
 	public void draw() {
-		System.out.println("선색: "+lineColor+" 면색: "+fillColor+" 가로: "+width+ " 세로: "+height);
+		System.out.println("선색: "+lineColor+" 면색: "+fillColor+" 가로: "+width+ " 세로: "+height+" 삼각형을 그렸습니다.");
 	}
 	
 

@@ -25,6 +25,7 @@ public class ShapeApp {
 		for(int i=0; i<rArray.length; i++) {
 			rArray[i].draw();
 		}
+		System.out.println("=============================");
 		/*
 		//모든 사각형에 선 색만 출력
 		for(int i=0; i<rArray.length; i++) {
@@ -48,6 +49,26 @@ public class ShapeApp {
 		for(int i=0; i<cArray.length; i++) {
 			cArray[i].draw();
 		}
+		System.out.println("=============================");
+		
+		//삼각형을 관리할 배열
+		Triangle[] tArray = new Triangle[3];
+		
+		//삼각형 3개를 만들었음
+		Triangle t01 = new Triangle("빨강","빨강",15,20);
+		Triangle t02 = new Triangle("무지개","회색",40,24);
+		Triangle t03 = new Triangle("연보라","초록색",12,45);
+		
+		//삼각형(t01)을 배열에 넣기
+		tArray[0] = t01;
+		tArray[1] = t02;
+		tArray[2] = t03;
+		
+		for(int i=0; i<tArray.length; i++) {
+			tArray[i].draw();
+		}
+		
+		
 		
 		
 		

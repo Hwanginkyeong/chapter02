@@ -51,7 +51,7 @@ public class Circle {
 	}
 	
 	public void draw() {
-		System.out.println("선색: "+ lineColor + " 면색: "+ fillColor + " 반지름: "+ radius);
+		System.out.println("선색: "+ lineColor + " 면색: "+ fillColor + " 반지름: "+ radius+ " 원을 그렸습니다.");
 	}
 
 
