@@ -1,4 +1,4 @@
-package com.javaex.ex14;
+package com.javaex.ex15;
 
 public class Shape {
 	
@@ -39,6 +39,10 @@ public class Shape {
 	@Override
 	public String toString() {
 		return "Shape [lineColor=" + lineColor + ", fillColor=" + fillColor + "]";
+	}
+	
+	public void draw() {
+		System.out.println("선색: "+lineColor+" 면색: "+fillColor+" 도형을 그렸습니다.");
 	}
 	
 

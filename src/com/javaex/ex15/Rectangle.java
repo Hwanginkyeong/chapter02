@@ -1,4 +1,4 @@
-package com.javaex.ex14;
+package com.javaex.ex15;
 
 public class Rectangle extends Shape{
 	
@@ -42,16 +42,16 @@ public class Rectangle extends Shape{
 	
 	//메소드 일반
 	//부모쪽에도 같은 메소드가 있다.
-	//부모쪽의 메소드 사용 목하게 하려고 같은 이름으로 "재정의"
+	//부모쪽의 메소드 사용 못하게 하려고 같은 이름으로 "재정의"
 	
 	
-	public String toString2() {
+	public String toString() {
 		return "Rectangle [width=" + width + ", height=" + height + ", getLineColor()=" + getLineColor()
 				+ ", getFillColor()=" + getFillColor() + "]";
 	}
 	
 	public void draw() {
-		System.out.println("선색: "+ super.lineColor +" 면색: "+super.fillColor+" 가로: "+this.width+" 세로: "+this.height);
+		System.out.println("선색: "+ super.lineColor +" 면색: "+super.fillColor+" 가로: "+this.width+" 세로: "+this.height+" 사각형을 그렸습니다.");
 		
 	}
 
