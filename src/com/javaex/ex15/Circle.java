@@ -8,7 +8,7 @@ public class Circle extends Shape{
 	protected int radius;
 	
 	//생성자
-	public Circle(int radius) {
+	public Circle() {
 		super();
 	}
 

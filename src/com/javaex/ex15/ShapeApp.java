@@ -8,15 +8,14 @@ public class ShapeApp {
 		Shape[] sArray = new Shape[3];
 		
 		
-		Shape s01 = new Rectangle("빨강","빨강",5,5);
-		s01.draw();
+		Shape r01 = new Rectangle("빨강","빨강",5,5);
+		//s01.draw();
 		
-		Shape s02 = new Circle("노랑","노랑",100);
-		s02.draw();
+		Shape c01 = new Circle("노랑","노랑",100);
+		//s02.draw();
 		
-		Shape s03 = new Triangle("파랑","파랑",20,20);
-		s03.draw();
-		
+		Shape t01 = new Triangle("파랑","파랑",20,20);
+		//s03.draw();
 		
 		sArray[0] = r01;
 		sArray[1] = c01;

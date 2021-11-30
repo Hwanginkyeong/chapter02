@@ -10,7 +10,7 @@ public class Rectangle extends Shape{
 	protected int height;
 	
 	//생성자
-	public Rectangle(int width, int height) {
+	public Rectangle() {
 		super(); //Shape 의 기본 생성자 Shape();
 	}
 	

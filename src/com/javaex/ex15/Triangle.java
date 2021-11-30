@@ -11,8 +11,7 @@ public class Triangle extends Shape{
 	//생성자
 	public Triangle() {
 	}
-
-
+	
 	public Triangle(String lineColor, String fillColor, int width, int height) {
 		super(lineColor, fillColor);
 		this.width = width;
