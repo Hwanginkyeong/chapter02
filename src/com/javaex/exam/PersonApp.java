@@ -26,7 +26,8 @@ public class PersonApp { //자바는 스태틱 영역을 미리 싹 조사해서
 		p03.setAge(45); //setName은 당장 쓰지않더라도 값을 나중에 수정할 때 용이함
 		
 		//Student
-		Student 
+		Student s01 = new Student("이효리",30,"제주고등학교"); 
+		System.out.println(s01.toString());
 
 	}
 
